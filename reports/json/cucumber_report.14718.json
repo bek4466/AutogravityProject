@@ -1,0 +1,86 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Autogravity application for a loan",
+    "line": 2,
+    "id": "autogravity-application-for-a-loan",
+    "tags": [
+      {
+        "name": "@ChoosingCar",
+        "line": 1
+      }
+    ],
+    "uri": "Features/Autogravity_Loan.feature",
+    "elements": [
+      {
+        "id": "autogravity-application-for-a-loan;choose-a-car",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "choose a car",
+        "tags": [
+          {
+            "name": "@ChoosingCar",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to Autogravity application",
+            "match": {
+              "location": "tmp/Step_Definitions/autogravityLoanSteps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4454
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User chooses random brand of car",
+            "match": {
+              "location": "tmp/Step_Definitions/autogravityLoanSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1812
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User chooses model and fills up all info about car details",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User proceeds to next page to fill up the personal information",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "tmp/Support/hook.js:19"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
